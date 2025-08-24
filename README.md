@@ -1,56 +1,63 @@
-# Project OSaKA
+# 🍣 Project OSaKA — Organised Serving and cooKing Application
 
-## What does OSaKA stand for?
-Organised Serving and cooKing Application
 
-## Reason for existance
-Repository maintained for creation of the centralised management software meant to be used for the Japanese Themed Cafe in Synergia 2k24
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
-## How to run this project
+> 🏮 A centralized software solution crafted for a **Japanese-themed cafe** experience at **Synergia 2k24** — streamlining service, orders, and kitchen management all under one Zen roof.
 
-To run the project, follow these steps:
+---
 
-### Prerequisites
-1. Ensure you have Node.js and npm installed on your system.
-2. Install `nodemon` globally if you plan to use the dev scripts:
-   ```bash
-   npm install -g nodemon
-   ```
+## 🌐 Live Deployment
 
-### Running the Backend
-1. Navigate to the `backend` directory:
-   ```bash
-   cd backend
-   ```
-2. Install the dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the backend server:
-   - For production:
-     ```bash
-     npm start
-     ```
-   - For development (with hot-reloading):
-     ```bash
-     npm run dev
-     ```
+🎯 **Check it out here** 👉 [zentozest.netlify.app](https://zentozest.netlify.app/)  
+📸 _Sneak Peek:_  
+<img width="1128" height="798" alt="Screenshot 2025-07-14 110743" src="https://github.com/user-attachments/assets/956a2edc-2648-4fd0-b9cb-8c396121e309" />
 
-### Running the Web Application
-1. Navigate to the `webapp` directory:
-   ```bash
-   cd webapp
-   ```
-2. Install the dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the web application:
-   - For production:
-     ```bash
-     npm start
-     ```
-   - For development:
-     ```bash
-     npm run dev
-     ```
+<img width="1725" height="896" alt="Screenshot 2025-07-14 110829" src="https://github.com/user-attachments/assets/548ed41f-0c73-47fd-8ba9-62caf4c781db" />
+
+<img width="554" height="586" alt="Screenshot 2025-07-14 110854" src="https://github.com/user-attachments/assets/0962d2be-8e3f-4111-bc7d-833422833d2e" />
+
+<img width="976" height="679" alt="Screenshot 2025-07-14 110922" src="https://github.com/user-attachments/assets/ce45ecca-a61f-4c8f-ae45-37c72c14366f" />
+
+
+## 🧠 What is OSaKA?
+
+**OSaKA** stands for **Organised Serving and cooKing Application**.  
+It is a lightweight, intuitive platform developed to:
+
+- 📋 Take and manage customer orders efficiently
+- 🍱 Organize menu items with a Japanese aesthetic
+- 🔥 Streamline kitchen operations with real-time updates
+- 👘 Bring digital elegance to traditional café vibes
+
+---
+
+## 🛠️ Features
+
+- 🔐 Admin & Staff Login
+- 🍜 Dynamic Menu Management
+- 🛒 Order Placement & Tracking
+- 📊 Dashboard Analytics
+- 🧾 Invoice Generation
+- 🌙 Dark Mode (Because why not?)
+
+---
+
+## 💻 Tech Stack
+
+| Frontend      | Deployment    | Tools Used       |
+|---------------|---------------|------------------|
+| React.js      | Netlify       | TailwindCSS      |
+| React Router  |               | Framer Motion    |
+| Zustand       |               | Heroicons        |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/osaka.git
+cd osaka
+npm install
+npm run dev
