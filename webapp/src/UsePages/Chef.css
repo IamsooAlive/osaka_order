@@ -1,0 +1,102 @@
+/* Navbar styling */
+.navbar {
+  width: 100%;  /* Full width of the screen */
+  position: fixed;  /* Fixed at the top */
+  top: 0;  /* Stick to the top of the page */
+  left: 0;  /* Ensure it starts from the left edge */
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+  padding: 15px 0;  /* Top and bottom padding */
+  backdrop-filter: blur(15px); /* Glassmorphism blur effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+/* Navbar brand */
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black; /* Ensures navbar text is black */
+}
+
+/* Main content section styling */
+.container {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  flex-wrap: wrap;  /* Allow items to wrap if they exceed the container width */
+  justify-content: center;  /* Center the cards horizontally */
+  align-items: flex-start;
+  min-width: 80vw;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border-radius: 15px; /* Rounded corners for the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+
+/* Chef's title */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  color: rgb(0, 123, 255);
+}
+
+/* Card styling for orders */
+.card {
+  background-color: rgba(255, 255, 255, 0.2); /* Slight transparency for cards */
+  backdrop-filter: blur(10px); /* Glassmorphism blur effect */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(227, 24, 24, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  overflow: hidden; /* Prevent overflow */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Hover effect for cards */
+}
+
+/* List group styling for order items */
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent background for list items */
+  backdrop-filter: blur(5px); /* Light blur effect */
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for the "Mark as Complete" button */
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Card text for items */
+.card-text {
+  color: black;
+}
+
+/* Footer at the bottom of the page (if needed) */
+footer {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+}

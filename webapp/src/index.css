@@ -1,0 +1,113 @@
+/* index.css */
+
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./Assets/bg4.jpg');
+  background-size: cover;
+  color: #ffffff; /* White text color */
+}
+
+/* Code block styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Theme Colors */
+:root {
+  --black: #272525;
+  --white: #ffffff;
+}
+
+/* General container styling */
+.container {
+  background-color: var(--black); /* Black background for container */
+  color: var(--white); /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--white);
+}
+
+/* Link styles */
+a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #cccccc; /* Light gray for hover effect */
+}
+
+/* Button styles */
+button {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333333; /* Dark gray on hover */
+  color: var(--white);
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+}
+
+/* Responsive text alignment */
+/* Styling for interactive items */
+input[type="text"], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #cccccc;
+  box-shadow: 0px 0px 5px #cccccc;
+}
